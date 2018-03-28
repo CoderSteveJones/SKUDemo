@@ -48,6 +48,9 @@ class GoodsStandardsController: UIViewController,UICollectionViewDelegate, UICol
         
         setupItemModel()
         setupGoodsClassTag()
+        
+        kPrint(item: firstClassTagArr)
+        kPrint(item: secondClassTagArr)
     }
     
     // 数据初始化
@@ -85,7 +88,8 @@ class GoodsStandardsController: UIViewController,UICollectionViewDelegate, UICol
     
     // 数据初始化
     fileprivate func setupGoodsClassTag() {
-        // 模拟数据
+        // MARK: worning
+        // 模拟数据(json数据中对应tagsInfo部分)
         let arr1 = ["920mm*128mm*11mm","920mm*128mm*11mm","920mm*128mm*11mm","920mm*128mm*15mm","920mm*128mm*10mm","920mm*128mm*10mm","920mm*128mm*15mm","920mm*128mm*15mm"]
         let arr2 = ["1.3mm","1.4mm","1.5mm","1.2mm","1.3mm","1.4mm","1.5mm","1.3mm"]
 

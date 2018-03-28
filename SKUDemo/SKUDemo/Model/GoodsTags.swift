@@ -9,6 +9,6 @@
 import UIKit
 
 class GoodsTags: NSObject {
-    var name: String = ""
-    var child = [GoodsTagsChild]()
+    var name: String = "" // 区头名
+    var child = [GoodsTagsChild]() // 标签模型数组
 }
